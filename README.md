@@ -36,8 +36,7 @@ This repository contains a Docker-based MSSQL server setup.
 - User name: SA
 - Password: value of MSSQL_SA_PASSWORD in .env
 - Check on `Remember password`
-
-5. Enable Trust server certificate.
+- Trust server certificate: True
 
 
 ## License
