@@ -1,0 +1,11 @@
+services:
+  mssql:
+    image: mcr.microsoft.com/azure-sql-edge
+    container_name: mssql
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=1
+      - MSSQL_SA_PASSWORD=${MSSQL_SA_PASSWORD:-password}
+      - MSSQL_PID=Developer
+      - MSSQL_USER=${MSSQL_USER:-admin}
