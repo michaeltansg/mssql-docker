@@ -33,7 +33,7 @@ This repository contains a Docker-based MSSQL server setup.
 
 - Server: localhost
 - Authentication Type: SQL Login
-- User name: mssql
+- User name: SA
 - Password: value of MSSQL_SA_PASSWORD in .env
 - Check on `Remember password`
 
