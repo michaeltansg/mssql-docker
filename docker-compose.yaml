@@ -8,5 +8,5 @@ services:
       - ACCEPT_EULA=1
       - MSSQL_SA_PASSWORD=${MSSQL_SA_PASSWORD:-compLEX0}
       - MSSQL_PID=Developer
-      - MSSQL_USER=mssql
+      - MSSQL_USER=SA
       - MSSQL_TELEMETRY_ENABLED=FALSE
